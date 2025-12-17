@@ -20,7 +20,7 @@ resource "aws_launch_template" "web" {
   cat << WEBSITE > /usr/share/nginx/html/index.html
   <html>
   <head>
-      <title>HEH Tom Deneyer</title>
+      <title>HEH Terraform + GitHub Actions Project</title>
   </head>
   <body style="background-color:#1F778D">
       <p style="text-align: center;">
