@@ -34,7 +34,7 @@ resource "aws_launch_template" "web" {
   </html>
   WEBSITE
 EOF
-)
+  )
 }
 
 resource "aws_autoscaling_group" "web" {
