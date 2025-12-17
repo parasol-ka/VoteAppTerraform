@@ -56,7 +56,6 @@ resource "aws_autoscaling_group" "web" {
 
   instance_refresh {
     strategy = "Rolling"
-    triggers = ["launch_template"]
 
     preferences {
       instance_warmup        = 60
