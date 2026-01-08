@@ -62,7 +62,7 @@ resource "aws_route_table_association" "public_b" {
   route_table_id = aws_route_table.public.id
 }
 
-# NAT (dans Public A comme sur le schéma)
+# NAT (dans Public A)
 resource "aws_eip" "nat" {
   domain = "vpc"
   tags   = { Name = "eip-nat" }
