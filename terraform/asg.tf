@@ -22,7 +22,7 @@ resource "aws_launch_template" "web" {
   <head>
       <title>HEH Terraform + GitHub Actions Project</title>
   </head>
-  <body style="background-color: green;">
+  <body style="background-color: pink;">
       <p style="text-align: center;">
           <span style="color:#FFFFFF;">
               <span style="font-size:80px;">
